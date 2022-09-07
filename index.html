@@ -33,13 +33,13 @@
               <li class="header-link">
                 <a class="header-all" href="mailto:info@devstudio.com">
                   <svg class="icon-all" width="16" height="12">
-                    <use href="./images/icons.svg#icon-envelope"></use> </svg> 
+                    <use href="./images/icons.svg#envelope"></use> </svg> 
                   info@devstudio.com</a>
                 </li>
                 <li  class="header-link">
                   <a class="header-all" href="tel:+380961111111">
                     <svg class="icon-all" width="10" height="16">
-                      <use href="./images/icons.svg#icon-smartphone"></use> </svg>
+                      <use href="./images/icons.svg#smartphone"></use> </svg>
                     +38 096 111 11 11</a>
                   </li>
                 </ul>
@@ -50,10 +50,17 @@
               <main class="main">
                 <!--Slogan section -->
                 <section class="slogan section overline">
-                  <div class="container ">
+                  <div class="container container-slogan ">
                     <h1 class="cnt">Ефективні рішення для вашого бізнесу</h1>
-                  <button class="button" type="button">Замовити послугу</button>
-                  </div>
+                  <button class="button" type="button" data-modal-open>Замовити послугу</button>
+                  <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                    <button class="button-modal" type="button" data-modal-close>
+            <svg class="" width="30" height="30">
+              <use href="images/icons.svg#close"  ></use> </svg>
+                    </button>   
+                    </div>
+                  </div></div>
                 </section>
                 <!--About section -->
                 <section class="about section">
@@ -63,7 +70,7 @@
                     <li class="about-item">
                       <div class="about-box">
                       <svg width="70" height="70" >
-                        <use href="./images/icons.svg#icon-antenna-1"></use>
+                        <use href="./images/icons.svg#antenna"></use>
                       </svg></div>
                       <h3 class="about-subtitle">Увага до деталей</h3>
                       <p class="about-text">
@@ -74,7 +81,7 @@
                     <li class="about-item" >
                       <div class="about-box">
                       <svg width="70" height="70" >
-                        <use href="./images/icons.svg#icon-clock-1"></use>
+                        <use href="./images/icons.svg#clock"></use>
                       </svg></div>
                       <h3 class="about-subtitle">Пунктуальність</h3>
                       <p class="about-text">
@@ -85,7 +92,7 @@
                     <li class="about-item">
                       <div class="about-box">
                       <svg width="70" height="70" >
-                        <use href="./images/icons.svg#icon-diagram-1"></use>
+                        <use href="./images/icons.svg#diagram"></use>
                       </svg>
                     </div>
                       <h3 class="about-subtitle">Планування</h3>
@@ -96,7 +103,7 @@
                     <li  class="about-item">
                       <div class="about-box">
                       <svg width="70" height="70" >
-                        <use href="./images/icons.svg#icon-astronaut-1"></use>
+                        <use href="./images/icons.svg#astronaut"></use>
                       </svg></div>
                       <h3 class="about-subtitle">Сучасні технології</h3>
                       <p class="about-text">
@@ -158,19 +165,19 @@
             <ul class="nero-list-icons list">
               <li class="nero-item-icons"> <a class="nero-link-icons" href="instagram">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-instagram"></use> </svg>
+                  <use href="./images/icons.svg#instagram"></use> </svg>
                </a></li>
               <li class="nero-item-icons"> <a class="nero-link-icons" href="twitter">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-twitter"></use> </svg>
+                  <use href="./images/icons.svg#twitter"></use> </svg>
                </a></li>
               <li class="nero-item-icons"> <a class="nero-link-icons" href="facebook">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-facebook"></use> </svg>
+                  <use href="./images/icons.svg#facebook"></use> </svg>
                </a></li>
               <li class="nero-item-icons"> <a class="nero-link-icons" href="linkedin">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-linkedin"></use> </svg>
+                  <use href="./images/icons.svg#linkedin"></use> </svg>
                </a></li>
             </ul> 
             </div>
@@ -189,19 +196,19 @@
           <ul class="nero-list-icons list">
             <li class="nero-item-icons"> <a class="nero-link-icons" href="instagram">
               <svg class="nero-icon" width="20" height="20">
-                <use href="./images/icons.svg#icon-instagram"></use> </svg>
+                <use href="./images/icons.svg#instagram"></use> </svg>
              </a></li>
             <li class="nero-item-icons"> <a class="nero-link-icons" href="twitter">
               <svg class="nero-icon" width="20" height="20">
-                <use href="./images/icons.svg#icon-twitter"></use> </svg>
+                <use href="./images/icons.svg#twitter"></use> </svg>
              </a></li>
             <li class="nero-item-icons"> <a class="nero-link-icons" href="facebook">
               <svg class="nero-icon" width="20" height="20">
-                <use href="./images/icons.svg#icon-facebook"></use> </svg>
+                <use href="./images/icons.svg#facebook"></use> </svg>
              </a></li>
             <li class="nero-item-icons"> <a class="nero-link-icons" href="linkedin">
               <svg class="nero-icon" width="20" height="20">
-                <use href="./images/icons.svg#icon-linkedin"></use> </svg>
+                <use href="./images/icons.svg#linkedin"></use> </svg>
              </a></li>
           </ul>  </div>
           </li>
@@ -218,19 +225,19 @@
             <ul class="nero-list-icons list">
               <li class="nero-item-icons"> <a class="nero-link-icons" href="instagram">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-instagram"></use> </svg>
+                  <use href="./images/icons.svg#instagram"></use> </svg>
                </a></li>
               <li class="nero-item-icons"> <a class="nero-link-icons" href="twitter">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-twitter"></use> </svg>
+                  <use href="./images/icons.svg#twitter"></use> </svg>
                </a></li>
               <li class="nero-item-icons"> <a class="nero-link-icons" href="facebook">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-facebook"></use> </svg>
+                  <use href="./images/icons.svg#facebook"></use> </svg>
                </a></li>
               <li class="nero-item-icons"> <a class="nero-link-icons" href="linkedin">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-linkedin"></use> </svg>
+                  <use href="./images/icons.svg#linkedin"></use> </svg>
                </a></li>
             </ul> 
             </div>
@@ -249,19 +256,19 @@
             <ul class="nero-list-icons list">
               <li class="nero-item-icons"> <a class="nero-link-icons" href="instagram">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-instagram"></use> </svg>
+                  <use href="./images/icons.svg#instagram"></use> </svg>
                </a></li>
               <li class="nero-item-icons"> <a class="nero-link-icons" href="twitter">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-twitter"></use> </svg>
+                  <use href="./images/icons.svg#twitter"></use> </svg>
                </a></li>
               <li class="nero-item-icons"> <a class="nero-link-icons" href="facebook">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-facebook"></use> </svg>
+                  <use href="./images/icons.svg#facebook"></use> </svg>
                </a></li>
               <li class="nero-item-icons"> <a class="nero-link-icons" href="linkedin">
                 <svg class="nero-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-linkedin"></use> </svg>
+                  <use href="./images/icons.svg#linkedin"></use> </svg>
                </a></li>
             </ul> 
             </div>
@@ -275,30 +282,30 @@
           <ul class="list holder-list">
             <li class="holder-item"> <a class="holder-all" href="">
               <svg class="holder-icons" width="106" height="60">
-                <use href="./images/icons.svg#icon-Logo"></use>
+                <use href="./images/icons.svg#Logo-1"></use>
               </svg>
             </a> </li>
             <li class="holder-item">  <a class="holder-all" href="">
               <svg class="holder-icons" width="106" height="60">
-              <use href="./images/icons.svg#icon-Logo1"></use>
+              <use href="./images/icons.svg#Logo-2"></use>
             </svg></a></li>
             <li class="holder-item">  <a class="holder-all" href="">
               <svg class="holder-icons" width="106" height="60">
-                <use href="./images/icons.svg#icon-Logo2"></use>
+                <use href="./images/icons.svg#Logo-3"></use>
               </svg>
             </a></li>
             <li class="holder-item">  <a class="holder-all" href="">
               <svg class="holder-icons" width="106" height="60">
-              <use href="./images/icons.svg#icon-Logo3"></use>
+              <use href="./images/icons.svg#Logo-4"></use>
             </svg></a></li>
             <li class="holder-item">  <a class="holder-all" href="">
               <svg class="holder-icons" width="106" height="60">
-                <use href="./images/icons.svg#icon-Logo4"></use>
+                <use href="./images/icons.svg#Logo-5"></use>
               </svg>
             </a></li>
             <li class="holder-item">  <a class="holder-all" href="">
               <svg class="holder-icons" width="106" height="60">
-                <use href="./images/icons.svg#icon-Logo5"></use>
+                <use href="./images/icons.svg#Logo-6"></use>
               </svg>
             </a></li>
           </ul>
@@ -341,24 +348,25 @@
         <ul class="list">
           <li class="footer-item-icons"> <a class="footer-link-icons" href="instagram">
             <svg class="nero-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-instagram"></use> </svg>
+              <use href="./images/icons.svg#instagram"></use> </svg>
            </a></li>
           <li class="footer-item-icons"> <a class="footer-link-icons" href="twitter">
             <svg class="nero-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-twitter"></use> </svg>
+              <use href="./images/icons.svg#twitter"></use> </svg>
            </a></li>
           <li class="footer-item-icons"> <a class="footer-link-icons" href="facebook">
             <svg class="nero-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-facebook"></use> </svg>
+              <use href="./images/icons.svg#facebook"></use> </svg>
            </a></li>
           <li class="footer-item-icons"> <a class="footer-link-icons" href="linkedin">
             <svg class="nero-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-linkedin"></use> </svg>
+              <use href="./images/icons.svg#linkedin"></use> </svg>
            </a></li>
         </ul> 
       </div>
      </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
